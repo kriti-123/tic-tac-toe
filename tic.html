@@ -1,0 +1,59 @@
+<html>
+<title>TICTACTOE</title>
+<head>
+ <center><h1>TIC TAC TOE</h1></center>
+ <center><h3 id="player">it's your turn</h3></center>
+  </head>
+<style>
+table{
+    border:rgb(26, 22, 22);background-color:rgb(73, 59, 59);
+}
+h3{
+  color:rgba(20, 49, 128, 0.966);
+  font-size:28px;
+}
+h1
+{
+ color:purple;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  background-color: darkkhaki;
+}
+
+
+.cont1{
+  width:130px;
+  height:130px;
+  background-color: blue;
+  color:white;
+  border-radius: 10px;
+  font-size: 60px;
+}
+</style>
+<body>
+  <center>
+  <table border="4">
+  <tr class="cont">
+    <th class="cont1"id="b1"onclick="printx('1')"></th>
+    <th class="cont1"id="b2"onclick="printx('2')"></th>
+    <th class="cont1"id="b3"onclick="printx('3')"></th>
+</tr>
+<tr class="cont">
+    <th class="cont1"id="b4"onclick="printx('4')"></th>
+    <th class="cont1"id="b5"onclick="printx('5')"></th>
+    <th class="cont1"id="b6"onclick="printx('6')"></th>
+</tr>
+  <tr class="cont">
+    <th class="cont1"id="b7"onclick="printx('7')"></th>
+    <th class="cont1"id="b8"onclick="printx('8')"></th>
+    <th class="cont1"id="b9"onclick="printx('9')"></th>
+  </tr>
+</table>
+</center>
+<script src="jsgame.js"></script>
+</body>
+</html>
+
+
+
